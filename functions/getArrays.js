@@ -11,7 +11,7 @@ const getArrayNames = (myCallback) => {
       .then(response => {
         if (myCallback) {
           myCallback(response.data)
-          console.log(response.data);
+          //console.log(response.data);
         }
       })
       .catch(error => {       
@@ -26,7 +26,7 @@ const getArrayNames = (myCallback) => {
       .then(response => {
         if (myCallback) {
           myCallback(response.data)
-          console.log(response.data);
+          //console.log(response.data);
         }
       })
       .catch(error => {       
@@ -41,7 +41,7 @@ const getArrayNames = (myCallback) => {
       .then(response => {
         if (myCallback) {
           myCallback(response.data)
-          console.log(response.data);
+          //console.log(response.data);
         }
       })
       .catch(error => {       
